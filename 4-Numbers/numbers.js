@@ -1,22 +1,11 @@
-/*let a =0.1;
-console.log(a);
+const alturaCM = 185;
+const alturaM = 1.85;
+const pesoKG = 80.9;
 
-let b =0.2;
+const F_alturaM = Math.ceil(alturaM);
+console.log(F_alturaM);
 
-let c= a+b;
-console.log(c);
+const P_pesoKG = Math.floor(pesoKG);
+console.log(P_pesoKG);
 
-console.log(Math.round((0.1 + 0.2)*100)/100)
-
-let a =  3.5;
-let b = 4.8;
-console.log(a-b)*/
-let alturaCM = 185;
-let alturaM = 1.85;
-let pesoKG = 80.9;
-
-let F_alturaM = alturaM.toFixed(1);
-console.log(F_alturaM)
-
-let P_alturaM = parseFloat()
-console.log(P_alturaM)
+const isEqual = Number.MAX_VALUE + 1 === Number.MAX_VALUE
