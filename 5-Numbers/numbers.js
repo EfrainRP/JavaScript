@@ -9,3 +9,4 @@ const P_pesoKG = Math.floor(pesoKG);
 console.log(P_pesoKG);
 
 const isEqual = Number.MAX_VALUE + 1 === Number.MAX_VALUE
+console.log(Number.MAX_VALUE)
